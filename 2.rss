@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
+<!DOCTYPE scan [
+    <!ENTITY test SYSTEM "target.xml">
+]><scan>&test;</scan>
 <rss version="2.0">
- <!DOCTYPE name [ <!ENTITY lol SYSTEM “file:///etc/passwd”>]>
 <channel>
   <title>Ajax and XUL</title>
   <link>https://www.xul.fr/en/</link>
